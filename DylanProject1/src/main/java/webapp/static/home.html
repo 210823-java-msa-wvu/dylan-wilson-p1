@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .button {
+          background-color: #5b2469;
+          border: 4px 2px;
+          color: white;
+          padding: 50px 30px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 40px 2px;
+          cursor: pointer;
+        }
+        </style>
+    <title>Home</title>
+</head>
+<body style="text-align: center;">
+<h1 style="text-align: center;">Please Choose from below</h1>   <!******update to better **********-->
+
+<!-- <form name="form"  style="text-align: center;" method="post">
+    <fieldset style="margin: 0 auto; width: 500px;"> -->
+
+        <input type="button" id="new request"  class="button" onclick="newRequest()" value="Create New Reimbursement Request">
+
+<br><br>
+        <input type="button" id="view requests"  class="button"  onclick="view()" value="View Reimbursement Requests">
+        <br><br>
+        <input type="button" id="logout" class="button"onclick="logout()" value="Logout">
+
+
+    </fieldset>
+</form>
+<br>
+<br>
+
+<script src="js/requests.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
